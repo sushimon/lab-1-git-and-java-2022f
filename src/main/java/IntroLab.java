@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     * My example method that calls on printLabMessage.
+     */
+    public static String ourMethod() {
+        return printLabMessage("Howdy","Richard", true, "yeehaw");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
